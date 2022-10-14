@@ -12,7 +12,7 @@ const ParkingMap = () => {
 
     const [parkings , setParkings] = useState([])
     const [nearestParking , setNearestParking] = useState([])
-    const [userDetails , setUserDetails] = useUserContext({})
+    const [userDetails , setUserDetails] = useUserContext()
     const [loading , setLoading] = useState(false)
 
     const [open, setOpen] = React.useState({visible:false , data:{}});
