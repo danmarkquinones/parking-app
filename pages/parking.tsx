@@ -109,7 +109,7 @@ const ParkingMap = () => {
                     <Button onClick={handleLogout}>Logout</Button>
                 </div>
                 <div style={{margin:'20px 0px'}}>
-                    <p>Pick your entrance to see the nearest parking space for your size "{userDetails.info.size}" car</p>
+                    <p>Pick your entrance to see the nearest parking space for your size &#34{userDetails.info.size}&#34 car</p>
                     <InputPicker
                         data={entrances}
                         value={entrance} 
